@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+@font-face {
+    font-family: Ikaros;
+    src: url("../font/Ikaros.otf")
+}
+body{
+    font-family: Ikaros;
+}
+.flex{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-size: 30px;
+    height: 80px;
+    display: flex;
+    letter-spacing: 5px;
+    line-height: 80px;
+    margin-left: 100px;
+}
+.search{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: black;
+}
+.input{
+    margin-top: 20px;
+}
+.right{
+    font-size: 20px;
+    position: absolute;
+    right: 200px;
+    top:0px;
+}
+.log-sign{
+    line-height: 80px;
+}
+.login,.signUp{
+    margin-left: 20px;
+}
+.log-sign img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+

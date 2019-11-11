@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/share.css">
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>signUp</title>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <p>UBER</p><p style="color: green">EATS</p>
+        </div>
+        <div class="right flex">
+            <div class="input">
+                <input class="search">
+            </div>
+            
+            <div class="log-sign flex">
+                <div class="login">login</div>
+                <div class="signUp">sign up</div>
+                <img src="images/Unknown.png" width="30" height="30">
+            </div>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="content">
+            <div class="con-title">
+                Restaurants you love,delivered to you
+            </div>
+            <div class="con-search">
+                <input class="con-input" placeholder="Enter address">
+                <button type="submit" class="con-submit">find food</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="popular">
+        <div class="po-title">Popular Categories</div>
+        <div class="po-content">
+            <ul>
+                <li>
+                    <img src="images/bulk_actions_image_4ef1a05d-ebf6-4b2d-9774-bb239c9b65d6-w550-4d.jpg">
+                </li>
+                <li>
+                    <img src="images/images.jpg">
+                </li>
+                <li>
+                    <img src="images/Screen Shot 2019-10-09 at 9.10.02 PM.png">
+                </li>
+                <li>
+                    <img src="images/1First-Thanksgiving-3.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pages flex">
+        <div class="page-left col">
+            <div class="left-img1">
+                <img src="images/431062.png">
+            </div>
+            <div class="left-word">
+                <p>get Uber Eat in your phome and get $10 off for your first order!</p>
+            </div>
+            <div class="left-img2">
+                <img src="images/44-440070_app-store-google-play-png-ios-android-app.png.jpeg">
+            </div>
+        </div>
+        <div class="border"></div>
+        <div class="page-right">
+            <form id="myform" action="Homepage.html" method="post">
+                <ul>
+                    <li>
+                        <div class="ri-con-left-title ">Add credit or debit card</div>
+                    </li>
+                    <li class="input-word">
+                        <p>First Name</p>
+                    </li>
+                    <li>
+                        <input class="con-input input-100" id="fName" required name="fName" type="text" value="">
+                    </li>
+                    <li class="input-word">
+                        <p>Last Name</p>
+                    </li>
+                    <li>
+                        <input class="con-input input-100" id="lName"required name="lName" type="text" value="">
+                    </li>
+                    <li class="input-word">
+                        <p>Password</p>
+                    </li>
+                    <li>
+                        <input class="con-input input-100" id="password"required name="password" type="text" value="">
+                    </li>
+                    <li class="input-word">
+                        <p>Phone Number</p>
+                    </li>
+                    <li>
+                        <input class="con-input input-100" id="phoneNumber" required name="phoneNumber" type="text" value="">
+                    </li>
+                    <li class="input-word">
+                        <p>Email</p>
+                    </li>
+                    <li>
+                        <input class="con-input input-100" id="email" required name="phoneNumber" type="email" value="">
+                    </li>
+                    <li>
+                        <a href="./Homepage.html">
+                            <button class="con-button-2" onclick="signUp()">Next</button>
+                        </a>
+                    </li>
+                </ul>
+            </form>
+                <div class="left-img3">
+                    <img src="images/login-with-google-png-4.png">
+                </div>
+        </div>
+    </div>
+    <script src="js/signup.js"> </script>
+</body>
+</html>
